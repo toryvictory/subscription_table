@@ -66,3 +66,29 @@
     padding: 1rem;
     text-transform: lowercase;
 }
+
+.table-body {
+    color: black;
+    line-height: 3rem;
+}
+
+tr > td:nth-child(n+2) {
+    text-align: center;
+}
+
+td:first-child {
+    padding-left: 1rem;
+}
+
+tr:nth-child(2n+1) > td:nth-child(2n+1) {
+    background-color: #dbdbdb;
+}
+
+tr:nth-child(2n+1) > td:nth-child(2n+2), tr:nth-child(2n+2) > td:nth-child(2n+1) {
+    background-color: #e7e7e7;
+}
+
+tr:nth-child(2n+2) > td:nth-child(2n+2) {
+    background-color: #f3f3f3;
+}
+
